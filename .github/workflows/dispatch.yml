@@ -3,8 +3,8 @@ name: trigger bump
 on:
   push:
     branches: [ master ]
-    release:
-        types: [ published, released ]
+  release:
+    types: [ published, released ]
 
 jobs:
   dispatch:
